@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Mvp_Pattern</string>
+
+
+
+    <!--  Strings for Login Process   -->
+
+    <string name="message_login_userEmpty">Usuario requerido.</string>
+    <string name="message_login_passwordEmpty">Password requerido.</string>
+    <string name="message_login_userError">Usuario no existe.</string>
+    <string name="message_login_passwordError">Contraseña Inválida.</string>
+    <string name="messae_loginError">Ocurrió un error al validar credenciales.</string>
+
+
+
+    <!--  Strings for Login Layout   -->
+
+    <string name="button_text_logIn">Login</string>
+    <string name="editext_placeholder_user">User</string>
+    <string name="editext_placeholder_password">Password</string>
+
 </resources>
