@@ -73,22 +73,22 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void setUserNameEmpty(String message) {
-        Toast.makeText(LoginActivity.this,message,Toast.LENGTH_SHORT).show();
+        edtUser.setError(message);
     }
 
     @Override
     public void setPasswordEmpty(String message) {
-        Toast.makeText(LoginActivity.this,message,Toast.LENGTH_SHORT).show();
+        edtPassword.setError(message);
     }
 
     @Override
     public void setUserNameError(String message) {
-        Toast.makeText(LoginActivity.this,message,Toast.LENGTH_SHORT).show();
+        edtUser.setError(message);
     }
 
     @Override
     public void setPasswordError(String message) {
-        Toast.makeText(LoginActivity.this,message,Toast.LENGTH_SHORT).show();
+        edtPassword.setError(message);
 
     }
 
