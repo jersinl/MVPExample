@@ -19,4 +19,13 @@
     <string name="editext_placeholder_user">User</string>
     <string name="editext_placeholder_password">Password</string>
 
+
+    <!--  Strings for User Adapter   -->
+
+    <string name="textview_text_admin">Es Administrador.</string>
+    <string name="textview_text_noadmin">No es Administrador.</string>
+
+
+
+
 </resources>
